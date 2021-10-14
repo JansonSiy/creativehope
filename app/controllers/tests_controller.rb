@@ -5,6 +5,11 @@ class TestsController < ApplicationController
   # GET /tests or /tests.json
   def index
     @tests = Test.all
+
+    require 'httparty'
+    
+    response = HTTParty.get('https://jsonplaceholder.typicode.com/users')
+    @data = JSON.parse(response.body) if response.code == 200
   end
 
   # GET /tests/1 or /tests/1.json
