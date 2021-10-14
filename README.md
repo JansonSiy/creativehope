@@ -13,7 +13,7 @@ Pending Task:
 
 * Remove Email column from User model
 
-Please take note of the credentials
-Name: testuser
-Email: testuser@email.com
-Password: password
+Please take note of the credentials:
+* Name: testuser
+* Email: testuser@email.com
+* Password: password
