@@ -1,24 +1,19 @@
-# README
+# CreativeHope PH Inc. Task 2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Accomplished:
+* Create a simple app that allows you to do basic authentication to a page with a name "testuser" and a password "password".
 
-Things you may want to cover:
+* Display a list of users as provided by this API: https://jsonplaceholder.typicode.com/guide.html
 
-* Ruby version
+* Display the users' name, username, phone and company name
 
-* System dependencies
+Pending Task:
 
-* Configuration
+* UI Design
 
-* Database creation
+* Remove Email column from User model
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please take note of the credentials
+Name: testuser
+Email: testuser@email.com
+Password: password
